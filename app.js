@@ -20,12 +20,6 @@ $('form').submit(function(event){
    	}
 
    	var averageWord = totalChar / text.length;
-   	console.log("Average word length is: " + averageWord);
-   	console.log("Total number of unique words is: " + totalUnique);
-   	
-
-
-
    	$('dl').html('<dt>Word count</dt>' + 
    				 '<dd>' + text.length + '</dd>' +
 
